@@ -144,3 +144,11 @@ img {
 .image-slider .active {
     opacity: 1;
 }
+
+/* Estilo para dispositivos móviles (ancho de pantalla <= 768px) */
+@media (max-width: 768px) {
+    .image-container {
+        width: 100%; /* Hace que las imágenes ocupen todo el ancho de la pantalla */
+        margin: 10px 0; /* Agrega un pequeño espacio entre las imágenes */
+    }
+}
